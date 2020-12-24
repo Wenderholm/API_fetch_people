@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form class="generator">
+    <label class="generator_input-name">Wybierz płeć:
+        <select class="generator_select" name="gender">
+            <option value="both" selected>Wszyscy</option>
+            <option value="female">Kobiety</option>
+            <option value="male">Męzczyźni</option>
+        </select>
+    </label>
+    <label class="generator_input-name">Liczba osób:
+        <input class="generator_input" name="users-number" type="number" value="10">
+    </label>
+    <input type="submit" class="button" value="Pobierz użytkowników">
+</form>
+<div class="user-list"></div>
+<script src="main.js"></script>
+</body>
+</html>
